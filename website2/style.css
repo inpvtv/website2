@@ -1,0 +1,352 @@
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    img {
+        z-index: 1;
+    }
+    
+    .wrapper {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+        background-image: url(https://chronhib.maynoothuniversity.ie/helloworldapp/static/img/bg-masthead.jpg);
+        background-repeat: no-repeat, repeat;
+        background-size: 100vw 80vh;
+    }
+    
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 15vh;
+    }
+    
+    b {
+        font-size: 64px;
+        color: rgb(36, 34, 34);
+    }
+    
+    h3 {
+        font-size: 32px;
+        color: rgb(36, 34, 34);
+    }
+    
+    .knopka button {
+        background-color: #0c79cd;
+        border: none;
+        color: white;
+        padding: 32px 46px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    
+    .knopka button:hover {
+        background-color: #085d9e;
+    }
+    /* portfolio start */
+    
+    .Portfolio {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .welcome1 {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    h5 {
+        font-size: 24px;
+        color: rgb(36, 34, 34);
+        color: rgb(108, 106, 106);
+    }
+    
+    a {
+        opacity: 0.5;
+        text-decoration: underline;
+    }
+    
+    .button1 {
+        background-color: #202020;
+        border: none;
+        color: white;
+        padding: 32px 42px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    
+    .button1:hover {
+        background-color: #3a3a3a;
+    }
+    /* what we offer */
+    
+    .whatweoffer {
+        width: 100%;
+        height: 60vh;
+        background-color: #3c8cca;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    h4 {
+        color: rgb(242, 188, 52);
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 52px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .cwrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        height: 25vh;
+        margin: 50px;
+    }
+    
+    .biggercircle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .circles {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    i {
+        color: #3c8cca;
+        font-size: 36px;
+    }
+    
+    strong {
+        font-size: 24px;
+        color: white;
+    }
+    
+    p {
+        font-size: 16px;
+        color: white;
+    }
+    
+    .fa-heart {
+        font-size: 16px;
+    }
+    /* what we offer end */
+    /* next website */
+    
+    .nextwebsite {
+        background-image: url(https://chronhib.maynoothuniversity.ie/helloworldapp/static/img/bg-callout.jpg);
+        width: 100%;
+        height: 70vh;
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .text2 {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #202020;
+    }
+    
+    #wel {
+        font-size: 48px;
+    }
+    /* next website end */
+    /* start portfmain */
+    
+    .portfmain {
+        width: auto;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #Recent {
+        color: #202020;
+    }
+    
+    .offers {
+        width: 1200px;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ofpics {
+        display: block;
+        transition: 0.4s;
+    }
+    
+    .biggerpics {
+        transition: 0.4s;
+        position: relative;
+    }
+    
+    .biggerpics:hover {
+        transform: scale(0.85);
+    }
+    
+    .offers img {
+        width: 600px;
+        height: 400px;
+        display: block;
+    }
+    
+    .pictext {
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+    /* end portfmain */
+    /* start cta-section */
+    
+    .cta-section {
+        width: 100%;
+        height: 30vh;
+        background-color: #0862a7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    #ctah2 {
+        font-size: 36px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .ctabuttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .clickme {
+        background-color: whitesmoke;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 32px 46px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    
+    .lookatme {
+        background-color: rgb(18, 18, 32);
+        border: none;
+        color: white;
+        padding: 32px 46px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    
+    .clickme:hover {
+        background-color: rgb(195, 189, 189);
+    }
+    
+    .lookatme:hover {
+        background-color: rgb(46, 46, 46);
+    }
+    /* end cta-section */
+    /* start socialbuttons */
+    
+    .socialbuttons {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        gap: 10px;
+    }
+    
+    .social {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: #0862a7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.4s;
+    }
+    
+    .social:hover {
+        background-color: #063f6b;
+    }
+    /* end socialbuttons */
+    
+    footer {
+        text-align: center;
+        color: rgb(101, 96, 96);
+    }
